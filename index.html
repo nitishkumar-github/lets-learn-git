@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1 id="title">Water Tank Survey Form</h1>
+    <p id="description">Thank you for taking time to help us understand your water tank need.</p>
+    <form id="survey-form" action="">
+      <!--Q1-->
+      <label id="name-label" for="name">Name<br>
+        <input id="name" type="text" placeholder="Nitish kumar" required>
+      </label><br>
+      <!--Q2-->
+      <label id="email-label" for="email">Email<br>
+        <input id="email" type="email" placeholder="nitish@gmail.com" required>
+      </label><br>
+      <!--Q3-->
+      <label id="number-label" for="number">Age <br>
+        <input id="number" type="number" min="10" max="99" placeholder="24">
+      </label><br>
+      <!--Q4-->
+      <label for="dropdown">How much water you need to store?<br>
+        <select id="dropdown">
+          <option id="100ltr" name="capacity">100 Liter</option>
+          <option id="200ltr" name="capacity">200 Liter</option>
+          <option id="300ltr" name="capacity">300 Liter</option>
+          <option id="500ltr" name="capacity">500 Liter</option>
+          <option id="1000ltr" name="capacity">1000 Liter</option>
+        </select>
+      </label><br>
+      <!--Q5-->
+      <p>Which brand would you prefer?</p>
+      <label for="prince">
+        <input id="prince" type="radio" name="brand" value="prince">Prince
+      </label><br>
+      <label for="vectus">
+        <input id="vectus" type="radio" name="brand" value="vectus">Vectus
+      </label><br>
+      <label for="syntax">
+        <input id="syntax" type="radio" name="brand" value="syntax">Syntax
+      </label><br>
+      <label for="not-sure">
+        <input id="no-sure" type="radio" name="brand" value="not-sure">Not sure
+      </label><br>
+      <!--Q6-->
+      <p>Select color of your choice:</p>
+      <label for="white">
+        <input id="white" type="radio" name="color" value="white">White
+      </label><br>
+      <label for="black">
+        <input id="black" type="radio" name="color" value="black">Black
+      </label></br>
+      <label for="other">
+        <input id="other" type="radio" name="color" value="other">Other
+      </label></br>
+      <!--Q6-->
+      <p>Choose items that you need in order to setup your water tank:</p>
+      <label for="check-valve">
+        <input id="check-valve" type="checkbox" name="other-items" value="check-valve">Check valve
+      </label><br>
+      <label for="nepul">
+        <input id="nepul" type="checkbox" name="other-items" value="nepul">Nepul
+      </label><br>
+      <label for="reducer">
+        <input id="reducer" type="checkbox" name="other-items" value="reducer">Reducer
+      </label><br>
+      <label for="socket">
+        <input id="socket" type="checkbox" name="other-items" value="socket">Socket
+      </label><br>
+      <label for="pipe">
+        <input id="pipe" type="checkbox" name="other-items" value="pipe">Pipe
+      </label><br>
+      <label for="angle-cock">
+        <input id="angle-cock" type="checkbox" name="other-items" value="angle-cock">Angle cock
+      </label><br>
+      <label for="piller-cock">
+        <input id="piller-cock" type="checkbox" name="other-items" value="piller-cock">Piller cock
+      </label><br>
+      <!--Q7-->
+        <p>Any comments or suggestions?</p>
+        <textarea></textarea>
+      <!--SUBMIT-->
+      <br><button id="submit" type="submit" name="submit">Submit</button>
+    </form>
+  </body>
+</html>
